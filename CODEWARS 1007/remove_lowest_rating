@@ -29,6 +29,6 @@ Examples
 //Psuedocode: write a function to removes smallest value from array. If array has repeating values, remove the repeating value that has the lowest index. If empty array is passed in, return empty array. the original array cannot be mutated.
 
 function removeSmallest(numbers) {
-    numbers.splice(0, Math.min(numbers.indexOf()))
-  return [];
+  const min = Math.min.apply(this, numbers);
+  return numbers.filter((num, idx, arr) => idx !== arr.indexOf(min));
 }
