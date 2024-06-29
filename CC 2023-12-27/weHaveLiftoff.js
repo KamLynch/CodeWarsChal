@@ -20,9 +20,7 @@ instructions = [1,2,4,3,5]
 
 //Parameter: take in an array of integers ranging 1-10 as an argument. sort the array in descending order and add liftoff at the end
 
-
 //Return: array in descending order + 'liftoff'
-
 
 //Example:
 // [8,1,10,2,7,9,6,3,4,5] ==> "10 9 8 7 6 5 4 3 2 1 liftoff!"
