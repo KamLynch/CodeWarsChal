@@ -12,11 +12,7 @@ Given a set of numbers, return the additive inverse of each. Each positive becom
 
 //P
 function invert(array) {
-    /* loop (for) through array, create if else statement
-    for (let i = 0; i <= array.length; i++){
-        if(array[i] > )
-    }*/
-    // map through array 
+    // map through array and multiply by -1 to get the opposite
     let invrtArr = array.map((p) => p * -1);
    return invrtArr;
 }
